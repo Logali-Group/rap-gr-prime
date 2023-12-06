@@ -1,0 +1,9 @@
+projection;
+strict ( 2 );
+
+define behavior for zc_hr_prim00 alias HCM
+{
+  use create;
+  use update;
+  use delete;
+}

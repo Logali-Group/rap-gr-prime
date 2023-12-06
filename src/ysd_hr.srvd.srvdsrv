@@ -1,0 +1,4 @@
+@EndUserText.label: 'yy HR'
+define service Ysd_hr {
+  expose zc_hr_prim00 as HCM;
+}

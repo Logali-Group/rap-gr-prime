@@ -1,0 +1,15 @@
+@EndUserText.label: 'Travel'
+define service Zsd_travel_prim00 {
+  expose zc_travel_prim00         as Travel;
+  expose zc_booking_prim00        as Booking;
+  expose /DMO/I_Customer          as Passenger;
+  expose /DMO/I_Carrier           as Airline;
+  expose /DMO/I_Connection        as FligthConnection;
+  expose /DMO/I_Flight            as Flight;
+  expose /DMO/I_Agency            as Agency;
+  expose /DMO/I_Airport           as Airport;
+  expose /DMO/I_Overall_Status_VH as OverallStatusVH;
+  expose /DMO/I_Booking_Status_VH as BookingStatusVH;
+  expose I_Currency               as Currency;
+  expose I_Country                as Country;
+}

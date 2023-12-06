@@ -1,0 +1,17 @@
+unmanaged implementation in class zbp_r_hr_prim00 unique;
+strict ( 2 );
+
+define behavior for zr_hr_prim00 alias HCM
+//late numbering
+lock master
+authorization master ( instance )
+etag master CreaDateTime
+{
+  create;
+  update;
+  delete;
+
+  field ( readonly ) ENumber;
+  field ( mandatory : create ) EName;
+
+}
